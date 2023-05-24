@@ -8,12 +8,12 @@ const Navbar = () => {
       <div className="container">
         <div className="row">
           <div className="logo">
-            <a className="aNav" href="#">
+            <a className="aLogo" href="#">
               Chris Les Bons Items
             </a>
           </div>
-          <div class="mobile_btn">
-            <i class="fas fa-bars"></i>
+          <div className="mobile_btn">
+            <i className="fas fa-bars"></i>
           </div>
           <div className="main_menu">
             <ul className="ulNav">
