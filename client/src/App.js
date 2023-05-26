@@ -1,3 +1,4 @@
+import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
 import MachineALaver from "./Pages/MachineALaver/MachineALaver";
 
@@ -10,6 +11,7 @@ function App() {
       <div>
         <MachineALaver />
       </div>
+      <Footer />
     </div>
   );
 }

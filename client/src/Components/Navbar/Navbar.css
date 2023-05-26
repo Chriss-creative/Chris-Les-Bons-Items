@@ -2,6 +2,7 @@
   --background-color: #ffffff;
   --hover-color: rgb(102, 40, 245);
 }
+
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +11,9 @@
 }
 .aNav {
   text-decoration: none;
+}
+.aMainNac {
+  font-size: 18px;
 }
 .ulNav,
 ol {
@@ -249,4 +253,8 @@ body {
 
 .sub_menu a {
   margin-left: 3px;
+}
+
+.logo_img {
+  width: 90px;
 }

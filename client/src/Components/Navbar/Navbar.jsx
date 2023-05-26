@@ -2,6 +2,8 @@ import React from "react";
 import "./Navbar.css";
 import "./Nav";
 
+import Logo from "../../assets/Images/logo.jpg";
+
 const Navbar = () => {
   return (
     <nav className="NavMenu">
@@ -9,7 +11,7 @@ const Navbar = () => {
         <div className="row">
           <div className="logo">
             <a className="aLogo" href="#">
-              Chris Les Bons Items
+              <img className="logo_img" src={Logo} alt="logo ItemsDeQualité" />
             </a>
           </div>
           <div className="mobile_btn">
@@ -71,7 +73,7 @@ const Navbar = () => {
               </li> */}
               <li className="mega_menu_dropdown has_dropdown">
                 <a className="aNav" href="#">
-                  Maison <i className="fas fa-angle-down"></i>
+                  <span className="aMainNac">Maison</span> <i className="fas fa-angle-down"></i>
                 </a>
                 <div className="mega_menu sub_menu">
                   <div className="mega_menu_item">
@@ -506,7 +508,7 @@ const Navbar = () => {
               </li>
               <li className="mega_menu_dropdown has_dropdown">
                 <a className="aNav" href="#">
-                  Cuisine <i className="fas fa-angle-down"></i>
+                  <span className="aMainNac">Cuisine</span> <i className="fas fa-angle-down"></i>
                 </a>
                 <div className="mega_menu sub_menu">
                   <div className="mega_menu_item">
@@ -937,7 +939,7 @@ const Navbar = () => {
               </li>
               <li className="mega_menu_dropdown has_dropdown">
                 <a className="aNav" href="#">
-                  Jardin & Bricolage <i className="fas fa-angle-down"></i>
+                  <span className="aMainNac">Jardin & Bricolage</span> <i className="fas fa-angle-down"></i>
                 </a>
                 <div className="mega_menu sub_menu">
                   <div className="mega_menu_item">
@@ -1295,7 +1297,7 @@ const Navbar = () => {
               </li>
               <li className="mega_menu_dropdown has_dropdown">
                 <a className="aNav" href="#">
-                  Loisirs <i className="fas fa-angle-down"></i>
+                  <span className="aMainNac">Loisirs</span> <i className="fas fa-angle-down"></i>
                 </a>
                 <div className="mega_menu sub_menu">
                   <div className="mega_menu_item">
@@ -1620,7 +1622,7 @@ const Navbar = () => {
               </li>
               <li className="mega_menu_dropdown has_dropdown">
                 <a className="aNav" href="#">
-                  Bébé <i className="fas fa-angle-down"></i>
+                  <span className="aMainNac">Bébé</span> <i className="fas fa-angle-down"></i>
                 </a>
                 <div className="mega_menu sub_menu">
                   <div className="mega_menu_item">
@@ -1812,7 +1814,7 @@ const Navbar = () => {
               </li>
               <li className="mega_menu_dropdown has_dropdown">
                 <a className="aNav" href="#">
-                  Beauté <i className="fas fa-angle-down"></i>
+                  <span className="aMainNac">Beauté</span> <i className="fas fa-angle-down"></i>
                 </a>
                 <div className="mega_menu sub_menu">
                   <div className="mega_menu_item">

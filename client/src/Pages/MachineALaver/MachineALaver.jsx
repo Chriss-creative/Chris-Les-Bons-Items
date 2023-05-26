@@ -23,13 +23,13 @@ const MachineALaver = () => {
             <a href="#table0">Notre sélection au moins cher</a>
             <ul className="ulTables">
               <li className="liTables">
-                <a href="">Klarstein Bubble Boost</a>
+                <a href="https://amzn.to/3MwFrbK">Klarstein Bubble Boost</a>
               </li>
               <li className="liTables">
-                <a href="">ONECONCEPT SG002 WHITE LINE</a>
+                <a href="https://amzn.to/3ODJful">ONECONCEPT SG002 WHITE LINE</a>
               </li>
               <li className="liTables">
-                <a href="">GEDTECH - GLL71200WH n</a>
+                <a href="https://amzn.to/3MwLCwn">GEDTECH - GLL71200WH</a>
               </li>
             </ul>
           </li>
@@ -37,13 +37,13 @@ const MachineALaver = () => {
             <a href="#table1">Notre sélection meilleurs qualité</a>
             <ul className="ulTables">
               <li className="liTables">
-                <a href="">GEDTECH - GLL81400WH</a>
+                <a href="https://amzn.to/3ougDt4">GEDTECH - GLL81400WH</a>
               </li>
               <li className="liTables">
-                <a href="">BOSCH WAJ28067FR</a>
+                <a href="https://amzn.to/430BcMC">BOSCH WAJ28067FR</a>
               </li>
               <li className="liTables">
-                <a href="">GEDTECH - GLL7/8/9</a>
+                <a href="https://amzn.to/3MA0Kcl">GEDTECH - GLL7/8/9</a>
               </li>
             </ul>
           </li>
@@ -51,13 +51,13 @@ const MachineALaver = () => {
             <a href="#table3">Les meilleurs retour client</a>
             <ul className="ulTables">
               <li className="liTables">
-                <a href="#second">SAMSUNG WW90TA046AX</a>
+                <a href="https://amzn.to/45ry2TR">SAMSUNG WW90TA046AX</a>
               </li>
               <li className="liTables">
-                <a href="#second">BOSCH WGG14201FR</a>
+                <a href="https://amzn.to/3BZbaxv">BOSCH WGG14201FR</a>
               </li>
               <li className="liTables">
-                <a href="#second">CANDY LAVE LINGE FRONTAL CSS1410TWMCBE-47</a>
+                <a href="https://amzn.to/3BZbaxv">CANDY - CSS1410TWMCBE-47</a>
               </li>
             </ul>
           </li>
@@ -66,9 +66,9 @@ const MachineALaver = () => {
       {/*  */}
       <article className="articleTables" id="top">
         <h1 className="h1Tables">Quels sont les meilleurs machine à lavé en 2023 ?</h1>
-        <h2 className="h2Tables">trouver un sous titre</h2>
+        <span className="CreateBy">Créer le 26 Mai 2023, par Christopher Masson.</span>
         <section className="sectionTables" id="table0">
-          <h3 className="h3Tables">Notre sélection au moins cher</h3>
+          <h2 className="h2Tables">Notre sélection au moins cher</h2>
           {/* ---------------------------------------------------------- */}
           {/*--------- Tables prix -------- */}
           {/* ---------------------------------------------------------- */}
@@ -77,7 +77,7 @@ const MachineALaver = () => {
               <div className="panel pricing-table">
                 <div className="pricing-plan">
                   <img src={MachineLaver0} alt="Machine à laver" className="pricing-img" />
-                  <h2 className="pricing-header">Klarstein Bubble Boost</h2>
+                  <h3 className="pricing-header">Klarstein Bubble Boost</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">
                       Pratique et peu encombrante machine à laver compacte pour le camping et les voyages
@@ -85,14 +85,19 @@ const MachineALaver = () => {
                     <li className="pricing-features-item">Lavage de 0-10 minutes et essorage de 10-15 minutess</li>
                   </ul>
                   <span className="pricing-price">117,59€ TTC</span>
-                  <a href="https://amzn.to/3MwFrbK" target="_blank" className="pricing-button">
+                  <a
+                    href="https://amzn.to/3MwFrbK"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="pricing-button"
+                  >
                     Voir l'article
                   </a>
                 </div>
 
                 <div className="pricing-plan">
                   <img src={MachineLaver1} alt="Machine à laver" className="pricing-img" />
-                  <h2 className="pricing-header">oneConcept SG002 White Line</h2>
+                  <h3 className="pricing-header">oneConcept SG002 White Line</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">
                       Poignées latérales pour un transport indolore. Fonctionnement silencieux
@@ -102,20 +107,30 @@ const MachineALaver = () => {
                     </li>
                   </ul>
                   <span className="pricing-price">112,12€ TTC</span>
-                  <a href="https://amzn.to/3ODJful" target="_blank" className="pricing-button is-featured">
+                  <a
+                    href="https://amzn.to/3ODJful"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="pricing-button is-featured"
+                  >
                     Voir l'article
                   </a>
                 </div>
 
                 <div className="pricing-plan">
                   <img src={MachineLaver2} alt="Machine à laver" className="pricing-img" />
-                  <h2 className="pricing-header">GEDTECH - Lave-Linge GLL71200WH</h2>
+                  <h3 className="pricing-header">GEDTECH - Lave-Linge GLL71200WH</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">Capacité : 7 Kgs</li>
                     <li className="pricing-features-item">Classe énergétique : A++</li>
                   </ul>
                   <span className="pricing-price">309,99€ TTC</span>
-                  <a href="https://amzn.to/3MwLCwn" target="_blank" className="pricing-button">
+                  <a
+                    href="https://amzn.to/3MwLCwn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="pricing-button"
+                  >
                     Voir l'article
                   </a>
                 </div>
@@ -196,7 +211,7 @@ const MachineALaver = () => {
           {/* ---------------------------------------------------------- */}
         </section>
         <section className="sectionTables" id="table1">
-          <h3 className="h3Tables">Notre sélection meilleurs qualité</h3>
+          <h2 className="h2Tables">Notre sélection meilleurs qualité</h2>
           {/* ---------------------------------------------------------- */}
           {/*--------- Tables prix -------- */}
           {/* ---------------------------------------------------------- */}
@@ -205,20 +220,25 @@ const MachineALaver = () => {
               <div className="panel pricing-table">
                 <div className="pricing-plan">
                   <img src={MachineLaver3} alt="Machine à laver" className="pricing-img" />
-                  <h2 className="pricing-header">GEDTECH - Lave-Linge GLL81400WH</h2>
+                  <h3 className="pricing-header">GEDTECH - Lave-Linge GLL81400WH</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">Capacité : 8 Kgs </li>
                     <li className="pricing-features-item">322 avis laisser, articles qui ont su faire ces preuves !</li>
                   </ul>
                   <span className="pricing-price"> 329,99€ TTC</span>
-                  <a href="https://amzn.to/3ougDt4" target="_blank" className="pricing-button">
+                  <a
+                    href="https://amzn.to/3ougDt4"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="pricing-button"
+                  >
                     Voir l'article
                   </a>
                 </div>
 
                 <div className="pricing-plan">
                   <img src={MachineLaver5} alt="Machine à laver" className="pricing-img" />
-                  <h2 className="pricing-header">Bosch WAJ28067FR</h2>
+                  <h3 className="pricing-header">Bosch WAJ28067FR</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">
                       Le lave-linge WAJ28067FR de Bosch est doté d'un moteur EcoSilence Drive de Bosch est tellement
@@ -236,20 +256,30 @@ const MachineALaver = () => {
                   <span className="pricing-price">
                     399,99€ TTC <span>-5 %</span>
                   </span>
-                  <a href="https://amzn.to/430BcMC" target="_blank" className="pricing-button is-featured">
+                  <a
+                    href="https://amzn.to/430BcMC"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="pricing-button is-featured"
+                  >
                     Voir l'article
                   </a>
                 </div>
 
                 <div className="pricing-plan">
                   <img src={MachineLaver4} alt="Machine à laver" className="pricing-img" />
-                  <h2 className="pricing-header">GEDTECH - GLL7/8/9</h2>
+                  <h3 className="pricing-header">GEDTECH - GLL7/8/9</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">Capacité : 7 Kg </li>
                     <li className="pricing-features-item">Machine la plus vendu sur amazon</li>
                   </ul>
                   <span className="pricing-price">319,99€ TTC</span>
-                  <a href="https://amzn.to/3MA0Kcl" target="_blank" className="pricing-button">
+                  <a
+                    href="https://amzn.to/3MA0Kcl"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="pricing-button"
+                  >
                     Voir l'article
                   </a>
                 </div>
@@ -336,7 +366,7 @@ const MachineALaver = () => {
         </section>
 
         <section className="sectionTables" id="table3">
-          <h3 className="h3Tables">Les meilleurs retour client</h3>
+          <h2 className="h2Tables">Les meilleurs retour client</h2>
           {/* ---------------------------------------------------------- */}
           {/*--------- Tables prix -------- */}
           {/* ---------------------------------------------------------- */}
@@ -345,39 +375,54 @@ const MachineALaver = () => {
               <div className="panel pricing-table">
                 <div className="pricing-plan">
                   <img src={MachineLaver6} alt="Machine à laver" className="pricing-img" />
-                  <h2 className="pricing-header">SAMSUNG WW90TA046AX</h2>
+                  <h3 className="pricing-header">SAMSUNG WW90TA046AX</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">Capacité 9 Kilogrammes</li>
                     <li className="pricing-features-item">Produit régulièrement en rupture de stock</li>
                   </ul>
                   <span className="pricing-price">559,00€ TTC</span>
-                  <a href="https://amzn.to/45ry2TR" target="_blank" className="pricing-button">
+                  <a
+                    href="https://amzn.to/45ry2TR"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="pricing-button"
+                  >
                     Voir l'article
                   </a>
                 </div>
 
                 <div className="pricing-plan">
                   <img src={MachineLaver7} alt="Machine à laver" className="pricing-img" />
-                  <h2 className="pricing-header">Bosch WGG14201FR</h2>
+                  <h3 className="pricing-header">Bosch WGG14201FR</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">Capacité 63 Litres</li>
                     <li className="pricing-features-item">Le plus grand modèle de cette haute gamme</li>
                   </ul>
                   <span className="pricing-price">621,61€ TTC</span>
-                  <a href="https://amzn.to/3BVhG8w" target="_blank" className="pricing-button is-featured">
+                  <a
+                    href="https://amzn.to/3BVhG8w"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="pricing-button is-featured"
+                  >
                     Voir l'article
                   </a>
                 </div>
 
                 <div className="pricing-plan">
                   <img src={MachineLaver8} alt="Machine à laver" className="pricing-img" />
-                  <h2 className="pricing-header">CANDY Lave linge Frontal CSS1410TWMCBE-47</h2>
+                  <h3 className="pricing-header">CANDY Lave linge Frontal CSS1410TWMCBE-47</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">Capacité 10 Kilogrammes</li>
                     <li className="pricing-features-item">Rapport qualité prix très correct</li>
                   </ul>
                   <span className="pricing-price">433,00€ TTC</span>
-                  <a href="https://amzn.to/3BZbaxv" target="_blank" className="pricing-button">
+                  <a
+                    href="https://amzn.to/3BZbaxv"
+                    rel="noopener noreferrer"
+                    target="_blank"
+                    className="pricing-button"
+                  >
                     Voir l'article
                   </a>
                 </div>

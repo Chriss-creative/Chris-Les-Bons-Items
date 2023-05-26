@@ -1,5 +1,6 @@
-.bleu {
-  color: blue;
+:root {
+  --background-color: #ffffff;
+  --color: rgb(102, 40, 245);
 }
 
 /* Start */
@@ -34,6 +35,8 @@
   left: 0;
   top: var(--body-pad-top);
   line-height: 2;
+  background-color: var(--background-color);
+  border-radius: 20px;
 }
 
 .articleTables {
@@ -88,31 +91,32 @@
 
 /* === Body contents === */
 
-.h1Tables,
-.h2Tables {
+.h1Tables {
   margin: 0;
   padding: 0;
   font-size: 36px;
   margin-bottom: 15px;
+  color: var(--color);
 }
 
 .h2Tables {
   font-size: 24px;
 }
-.h3Tables {
+.h2Tables {
+  font-size: 22px;
   margin-top: 10px;
   margin-bottom: 10px;
   padding-left: 10px;
-
   border-left: 4px solid var(--highlight);
+  color: #4e4e4e;
 }
 
-.h1Tables span,
-.subheading {
-  display: block;
-  color: #666;
-  font: 700 20px sans-serif;
+.CreateBy {
+  color: rgb(185, 183, 183);
+  margin-top: 15px;
+  font-weight: 600;
 }
+
 /* ------------------ */
 /* Table prix */
 /* ------------------ */
@@ -267,9 +271,9 @@
 .pricing-button.is-featured:active {
   background-color: #269aff;
 }
-// ------------------------
+// ----------------------------------------------------
 // Conent Page
-// ------------------------
+// ----------------------------------------------------
 
 .container_articles {
   padding: 1em;
