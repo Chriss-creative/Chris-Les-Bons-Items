@@ -7,12 +7,14 @@
 .home {
   --body-pad-top: 70px;
   --highlight: #91cb3e;
+  --highlighth4: #2a62dc;
+
   margin-top: 80px;
   display: grid;
   margin: 0;
   padding: var(--body-pad-top) 45px;
   min-width: 350px;
-  grid: auto / 350px minmax(800px, auto);
+  grid: auto / 350px minmax(1120px, auto);
   align-items: start;
   justify-content: center;
   gap: 20px;
@@ -35,8 +37,9 @@
 }
 
 .articleTables {
-  margin-top: -50px;
-  padding-top: 50px;
+  padding: 1.5em;
+  background-color: #ffffff;
+  border-radius: 15px;
 }
 
 /* === Navbar and marker === */
@@ -94,9 +97,14 @@
 }
 
 .h2Tables {
-  padding-left: 10px;
-  border-left: 4px solid var(--highlight);
   font-size: 24px;
+}
+.h3Tables {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 10px;
+
+  border-left: 4px solid var(--highlight);
 }
 
 .h1Tables span,
@@ -200,7 +208,7 @@
 
 .pricing-img {
   margin-bottom: 25px;
-  max-width: 100%;
+  max-width: 150px;
 }
 
 .pricing-header {
@@ -259,7 +267,87 @@
 .pricing-button.is-featured:active {
   background-color: #269aff;
 }
+// ------------------------
+// Conent Page
+// ------------------------
 
+.container_articles {
+  padding: 1em;
+  background-color: #f8f7f7;
+  padding-left: 5%;
+  padding-right: 5%;
+  border-radius: 20px;
+}
+.h4Articles {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  font-size: 19px;
+  border-left: 4px solid var(--highlighth4);
+  padding-left: 7px;
+}
+
+.image-left,
+.image-right {
+  margin: 1em 0;
+}
+
+.p-left,
+.p-right {
+  margin-bottom: 15px;
+  color: #4e4e4e;
+  font-size: 17px;
+  text-align: justify;
+}
+
+.img-right,
+.img-left {
+  width: 160px;
+  height: 160px;
+  max-width: 160px;
+  max-height: 160px;
+  border-radius: 50%;
+}
+.p-right {
+  margin-right: 29px;
+}
+.p-left {
+  margin-left: 29px;
+}
+@media (min-width: 20em) {
+  .image-left,
+  .image-right {
+    display: flex;
+    align-items: center;
+  }
+
+  .image-left .img-left {
+    margin-right: 1em;
+    float: left; /* fallback */
+  }
+
+  .image-right .img-right {
+    order: 1;
+    margin-left: 1em;
+    float: right; /* fallback */
+  }
+
+  /* clearfix for fallback */
+  .image-left::after,
+  .image-right::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+}
+
+@media (min-width: 30em) {
+  .image-left .img-left,
+  .image-right .img-right {
+    flex-shrink: 0;
+  }
+}
+
+// ------------------------
 // responsive
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -281,5 +369,9 @@
   }
   .navTables {
     visibility: hidden;
+  }
+  .pricing-img {
+    margin-bottom: 25px;
+    max-width: 90px;
   }
 }
