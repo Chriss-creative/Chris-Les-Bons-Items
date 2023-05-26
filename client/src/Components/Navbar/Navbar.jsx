@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./Navbar.css";
 import "./Nav";
@@ -10,7 +11,7 @@ const Navbar = () => {
       <div className="container">
         <div className="row">
           <div className="logo">
-            <a className="aLogo" href="#">
+            <a className="aLogo" href="/">
               <img className="logo_img" src={Logo} alt="logo ItemsDeQualité" />
             </a>
           </div>
@@ -21,69 +22,89 @@ const Navbar = () => {
             <ul className="ulNav">
               {/* exemple multi burger */}
               {/* <li className="has_dropdown">
-                                <a className="aNav" href="#">
+                <a className="aNav" href="#">
                   Pages <i className="fas fa-angle-down"></i>
                 </a>
                 <ul className="sub_menu">
                   <li>
-                                    <a className="aNav" href="#">Page 1</a>
+                    <a className="aNav" href="#">
+                      Page 1
+                    </a>
                   </li>
                   <li className="has_dropdown">
-                                    <a className="aNav" href="#">
+                    <a className="aNav" href="#">
                       Page 2 <i className="fas fa-angle-right"></i>
                     </a>
                     <ul className="sub_menu">
                       <li>
-                                        <a className="aNav" href="#">Page 2.1</a>
+                        <a className="aNav" href="#">
+                          Page 2.1
+                        </a>
                       </li>
                       <li>
-                                        <a className="aNav" href="#">Page 2.2</a>
+                        <a className="aNav" href="#">
+                          Page 2.2
+                        </a>
                       </li>
                       <li className="has_dropdown">
-                                        <a className="aNav" href="#">
+                        <a className="aNav" href="#">
                           Page 2.3 <i className="fas fa-angle-right"></i>
                         </a>
                         <ul className="sub_menu">
                           <li>
-                                            <a className="aNav" href="#">Page 2.1</a>
+                            <a className="aNav" href="#">
+                              Page 2.1
+                            </a>
                           </li>
                           <li>
-                                            <a className="aNav" href="#">Page 2.2</a>
+                            <a className="aNav" href="#">
+                              Page 2.2
+                            </a>
                           </li>
                           <li>
-                                            <a className="aNav" href="#">Page 2.3</a>
+                            <a className="aNav" href="#">
+                              Page 2.3
+                            </a>
                           </li>
                           <li>
-                                            <a className="aNav" href="#">Page 2.4</a>
+                            <a className="aNav" href="#">
+                              Page 2.4
+                            </a>
                           </li>
                         </ul>
                       </li>
                       <li>
-                                        <a className="aNav" href="#">Page 2.4</a>
+                        <a className="aNav" href="#">
+                          Page 2.4
+                        </a>
                       </li>
                     </ul>
                   </li>
                   <li>
-                                    <a className="aNav" href="#">Page 3</a>
+                    <a className="aNav" href="#">
+                      Page 3
+                    </a>
                   </li>
                   <li>
-                                    <a className="aNav" href="#">Page 4</a>
+                    <a className="aNav" href="#">
+                      Page 4
+                    </a>
                   </li>
                 </ul>
               </li> */}
-              <li className="mega_menu_dropdown has_dropdown">
-                <a className="aNav" href="#">
-                  <span className="aMainNac">Maison</span> <i className="fas fa-angle-down"></i>
+              <ul className="mega_menu_dropdown has_dropdown">
+                <a className="aNav">
+                  <span className="aMainNav">Maison</span> <i className="fas fa-angle-down"></i>
                 </a>
                 <div className="mega_menu sub_menu">
                   <div className="mega_menu_item">
                     <h3>Buanderie & Salle de bain</h3>
                     <li className="has_dropdown">
-                      <a className="aNav" href="#">
+                      <a className="aNav">
                         Laver / Sécher <i className="fas fa-angle-down"></i>
                       </a>
                       <ul className="sub_menu">
-                        <a className="aNav" href="#">
+                        <a className="aNav" href="/maison/machine-a-laver">
                           Machine à laver
                         </a>
                         <a className="aNav" href="#">
@@ -505,10 +526,10 @@ const Navbar = () => {
                     </li>
                   </div>
                 </div>
-              </li>
-              <li className="mega_menu_dropdown has_dropdown">
+              </ul>
+              <ul className="mega_menu_dropdown has_dropdown">
                 <a className="aNav" href="#">
-                  <span className="aMainNac">Cuisine</span> <i className="fas fa-angle-down"></i>
+                  <span className="aMainNav">Cuisine</span> <i className="fas fa-angle-down"></i>
                 </a>
                 <div className="mega_menu sub_menu">
                   <div className="mega_menu_item">
@@ -936,10 +957,10 @@ const Navbar = () => {
                     </li>
                   </div>
                 </div>
-              </li>
-              <li className="mega_menu_dropdown has_dropdown">
+              </ul>
+              <ul className="mega_menu_dropdown has_dropdown">
                 <a className="aNav" href="#">
-                  <span className="aMainNac">Jardin & Bricolage</span> <i className="fas fa-angle-down"></i>
+                  <span className="aMainNav">Jardin & Bricolage</span> <i className="fas fa-angle-down"></i>
                 </a>
                 <div className="mega_menu sub_menu">
                   <div className="mega_menu_item">
@@ -1294,10 +1315,10 @@ const Navbar = () => {
                     </li>
                   </div>
                 </div>
-              </li>
-              <li className="mega_menu_dropdown has_dropdown">
+              </ul>
+              <ul className="mega_menu_dropdown has_dropdown">
                 <a className="aNav" href="#">
-                  <span className="aMainNac">Loisirs</span> <i className="fas fa-angle-down"></i>
+                  <span className="aMainNav">Loisirs</span> <i className="fas fa-angle-down"></i>
                 </a>
                 <div className="mega_menu sub_menu">
                   <div className="mega_menu_item">
@@ -1619,10 +1640,10 @@ const Navbar = () => {
                     </li>
                   </div>
                 </div>
-              </li>
-              <li className="mega_menu_dropdown has_dropdown">
+              </ul>
+              <ul className="mega_menu_dropdown has_dropdown">
                 <a className="aNav" href="#">
-                  <span className="aMainNac">Bébé</span> <i className="fas fa-angle-down"></i>
+                  <span className="aMainNav">Bébé</span> <i className="fas fa-angle-down"></i>
                 </a>
                 <div className="mega_menu sub_menu">
                   <div className="mega_menu_item">
@@ -1811,10 +1832,10 @@ const Navbar = () => {
                     </li>
                   </div>
                 </div>
-              </li>
-              <li className="mega_menu_dropdown has_dropdown">
+              </ul>
+              <ul className="mega_menu_dropdown has_dropdown">
                 <a className="aNav" href="#">
-                  <span className="aMainNac">Beauté</span> <i className="fas fa-angle-down"></i>
+                  <span className="aMainNav">Beauté</span> <i className="fas fa-angle-down"></i>
                 </a>
                 <div className="mega_menu sub_menu">
                   <div className="mega_menu_item">
@@ -1998,7 +2019,7 @@ const Navbar = () => {
                     </li>
                   </div>
                 </div>
-              </li>
+              </ul>
             </ul>
           </div>
         </div>

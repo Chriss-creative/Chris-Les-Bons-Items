@@ -1,18 +1,19 @@
 import Footer from "./Components/Footer/Footer";
 import Navbar from "./Components/Navbar/Navbar";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import MachineALaver from "./Pages/MachineALaver/MachineALaver";
-
 function App() {
   return (
-    <div>
+    <BrowserRouter>
       <div>
         <Navbar />
       </div>
-      <div>
-        <MachineALaver />
-      </div>
+      <Routes>
+        <Route path="/" element={"ze"} />
+        <Route path="/maison/machine-a-laver" element={<MachineALaver />} />
+      </Routes>
       <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 

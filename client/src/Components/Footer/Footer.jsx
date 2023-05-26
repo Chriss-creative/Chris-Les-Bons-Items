@@ -1,44 +1,45 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from "react";
 import "./footer.css";
 
 const Footer = () => {
   return (
-    <footer class="footer-section">
-      <div class="container">
-        <div class="footer-content pt-5 pb-1">
-          <div class="row">
-            <div class="col-xl-4 col-lg-4 mb-50">
-              <div class="footer-widget">
-                <div class="footer-social-icon">
+    <footer className="footer-section">
+      <div className="container">
+        <div className="footer-content pt-5 pb-1">
+          <div className="row">
+            <div className="col-xl-4 col-lg-4 mb-50">
+              <div className="footer-widget">
+                <div className="footer-social-icon">
                   <span>Follow us</span>
-                  <ul class="social_icon">
+                  <ul className="social_icon">
                     <li>
                       <a href="#">
-                        <i class="fa-brands fa-facebook-f"></i>
+                        <i className="fa-brands fa-facebook-f"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="fa-brands fa-twitter"></i>
+                        <i className="fa-brands fa-twitter"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="fa-brands fa-instagram"></i>
+                        <i className="fa-brands fa-instagram"></i>
                       </a>
                     </li>
                     <li>
                       <a href="#">
-                        <i class="fa-brands fa-youtube"></i>
+                        <i className="fa-brands fa-youtube"></i>
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
-              <div class="footer-widget">
-                <div class="footer-widget-heading">
+            <div className="col-xl-4 col-lg-4 col-md-6 mb-30">
+              <div className="footer-widget">
+                <div className="footer-widget-heading">
                   <h3>Useful Links</h3>
                 </div>
                 <ul>
@@ -72,19 +73,19 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
-              <div class="footer-widget">
-                <div class="footer-widget-heading">
+            <div className="col-xl-4 col-lg-4 col-md-6 mb-50">
+              <div className="footer-widget">
+                <div className="footer-widget-heading">
                   <h3>Subscribe</h3>
                 </div>
-                <div class="footer-text mb-25">
+                <div className="footer-text mb-25">
                   <p>Don’t miss to subscribe to our new feeds, kindly fill the form below.</p>
                 </div>
-                <div class="subscribe-form">
+                <div className="subscribe-form">
                   <form action="#">
                     <input type="text" placeholder="Email Address" />
                     <button>
-                      <i class="fab fa-telegram-plane"></i>
+                      <i className="fab fa-telegram-plane"></i>
                     </button>
                   </form>
                 </div>
@@ -93,18 +94,18 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div class="copyright-area">
-        <div class="container">
-          <div class="row">
-            <div class="col-xl-6 col-lg-6 text-center text-lg-left">
-              <div class="copyright-text">
+      <div className="copyright-area">
+        <div className="container">
+          <div className="row">
+            <div className="col-xl-6 col-lg-6 text-center text-lg-left">
+              <div className="copyright-text">
                 <p>
                   Copyright &copy; 2023, All Right Reserved <a href="#">Soumitra Ghosh</a>
                 </p>
               </div>
             </div>
-            <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
-              <div class="footer-menu">
+            <div className="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+              <div className="footer-menu">
                 <ul>
                   <li>
                     <a href="#">Home</a>
