@@ -1,17 +1,17 @@
 import React from "react";
-import "./index.scss";
+import "../../pages.scss";
 import "./index";
 
 // img
-import MachineLaver0 from "../../assets/Images/MachineLaver0.jpg";
-import MachineLaver1 from "../../assets/Images/MachineLaver1.jpg";
-import MachineLaver2 from "../../assets/Images/MachineLaver2.jpg";
-import MachineLaver3 from "../../assets/Images/MachineLaver3.jpg";
-import MachineLaver4 from "../../assets/Images/MachineLaver4.jpg";
-import MachineLaver5 from "../../assets/Images/MachineLaver5.jpg";
-import MachineLaver6 from "../../assets/Images/MachineLaver6.jpg";
-import MachineLaver7 from "../../assets/Images/MachineLaver7.jpg";
-import MachineLaver8 from "../../assets/Images/MachineLaver8.jpg";
+import MachineLaver0 from "../../../assets/images/MachineLaver0.jpg";
+import MachineLaver1 from "../../../assets/images/MachineLaver1.jpg";
+import MachineLaver2 from "../../../assets/images/MachineLaver2.jpg";
+import MachineLaver3 from "../../../assets/images/MachineLaver3.jpg";
+import MachineLaver4 from "../../../assets/images/MachineLaver4.jpg";
+import MachineLaver5 from "../../../assets/images/MachineLaver5.jpg";
+import MachineLaver6 from "../../../assets/images/MachineLaver6.jpg";
+import MachineLaver7 from "../../../assets/images/MachineLaver7.jpg";
+import MachineLaver8 from "../../../assets/images/MachineLaver8.jpg";
 
 const MachineALaver = () => {
   return (
@@ -68,6 +68,21 @@ const MachineALaver = () => {
         <h1 className="h1Tables">Quels sont les meilleurs machine à lavé en 2023 ?</h1>
         <span className="CreateBy">Créer le 26 Mai 2023, par Christopher Masson.</span>
         <section className="sectionTables" id="table0">
+          <div className="container-intro">
+            <p className="intro-p">
+              Dans un marché rempli d'options variées, il est essentiel de prendre soin de choisir judicieusement les
+              articles qui nous entourent. Cela s'applique également à l'achat d'un nouvel appareil électroménager
+              essentiel dans notre quotidien : la machine à laver. Afin de faire le choix le plus adapté à nos besoins,
+              il est important de tenir compte de plusieurs critères clés :
+            </p>
+            <li className="li-intro">Le Type de la machine</li>
+            <li className="li-intro">La marque</li>
+            <li className="li-intro">La capacité de lavage</li>
+            <li className="li-intro">La classe d’énergie</li>
+            <li className="li-intro">La vitesse d’essorage</li>
+            <li className="li-intro">Les différentes options</li>
+          </div>
+
           <h2 className="h2Tables">Notre sélection au moins cher</h2>
           {/* ---------------------------------------------------------- */}
           {/*--------- Tables prix -------- */}

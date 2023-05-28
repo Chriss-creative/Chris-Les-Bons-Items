@@ -7,7 +7,7 @@ $(function ($) {
   });
 
   if ($(window).width() < 768) {
-    $(".main_menu  ul li a").on("click", function () {
+    $(".main_menu  ul ul a").on("click", function () {
       $(this).parent(".has_dropdown").children(".sub_menu").css({ "padding-left": "15px" }).stop().slideToggle();
 
       $(this).parent(".has_dropdown").children("a").find(".fa-angle-right").stop().toggleClass("fa-rotate-90");

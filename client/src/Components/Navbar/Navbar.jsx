@@ -3,7 +3,7 @@ import React from "react";
 import "./Navbar.css";
 import "./Nav";
 
-import Logo from "../../assets/Images/logo.jpg";
+import Logo from "../../assets/images/logo.jpg";
 
 const Navbar = () => {
   return (
@@ -93,21 +93,21 @@ const Navbar = () => {
                 </ul>
               </li> */}
               <ul className="mega_menu_dropdown has_dropdown">
-                <a className="aNav">
+                <a className="aNav" href="#">
                   <span className="aMainNav">Maison</span> <i className="fas fa-angle-down"></i>
                 </a>
                 <div className="mega_menu sub_menu">
                   <div className="mega_menu_item">
                     <h3>Buanderie & Salle de bain</h3>
                     <li className="has_dropdown">
-                      <a className="aNav">
+                      <a className="aNav" href="#">
                         Laver / Sécher <i className="fas fa-angle-down"></i>
                       </a>
                       <ul className="sub_menu">
                         <a className="aNav" href="/maison/machine-a-laver">
                           Machine à laver
                         </a>
-                        <a className="aNav" href="#">
+                        <a className="aNav" href="/maison/seche-linge">
                           Sèche-linge
                         </a>
                       </ul>
