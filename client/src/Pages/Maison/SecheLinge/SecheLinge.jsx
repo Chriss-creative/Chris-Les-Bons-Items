@@ -2,70 +2,46 @@ import React from "react";
 import "../../pages.scss";
 
 // img
-import MachineLaver0 from "../../../assets/images/MachineLaver0.jpg";
-import MachineLaver1 from "../../../assets/images/MachineLaver1.jpg";
-import MachineLaver2 from "../../../assets/images/MachineLaver2.jpg";
-import MachineLaver3 from "../../../assets/images/MachineLaver3.jpg";
-import MachineLaver4 from "../../../assets/images/MachineLaver4.jpg";
-import MachineLaver5 from "../../../assets/images/MachineLaver5.jpg";
-import MachineLaver6 from "../../../assets/images/MachineLaver6.jpg";
-import MachineLaver7 from "../../../assets/images/MachineLaver7.jpg";
-import MachineLaver8 from "../../../assets/images/MachineLaver8.jpg";
+import SecheLinge1 from "../../../assets/images/maison/secheLinge/secheLinge1.jpg";
+import SecheLinge2 from "../../../assets/images/maison/secheLinge/secheLinge2.jpg";
+import SecheLinge3 from "../../../assets/images/maison/secheLinge/secheLinge3.jpg";
+import SecheLinge4 from "../../../assets/images/maison/secheLinge/secheLinge4.jpg";
+import SecheLinge5 from "../../../assets/images/maison/secheLinge/secheLinge5.jpg";
+import SecheLinge6 from "../../../assets/images/maison/secheLinge/secheLinge6.jpg";
+import SecheLinge7 from "../../../assets/images/maison/secheLinge/secheLinge7.jpg";
+import SecheLinge8 from "../../../assets/images/maison/secheLinge/secheLinge8.jpg";
+import SecheLinge9 from "../../../assets/images/maison/secheLinge/secheLinge9.jpg";
 
-const SecheLinge = () => {
+import TableMatiere from "../../../Components/TableMatiere/TableMatiere";
+
+const SecheLinge = (props) => {
   return (
     <div className="home">
       {/*--------- Tables de matière -------- */}
-      <nav className="navTables">
-        <ul className="ulTables">
-          <li className="liTables">
-            <a href="#table0">Notre sélection au moins cher</a>
-            <ul className="ulTables">
-              <li className="liTables">
-                <a href=""></a>
-              </li>
-              <li className="liTables">
-                <a href=""></a>
-              </li>
-              <li className="liTables">
-                <a href=""></a>
-              </li>
-            </ul>
-          </li>
-          <li className="liTables">
-            <a href="#table1">Notre sélection meilleurs qualité</a>
-            <ul className="ulTables">
-              <li className="liTables">
-                <a href=""></a>
-              </li>
-              <li className="liTables">
-                <a href=""></a>
-              </li>
-              <li className="liTables">
-                <a href=""></a>
-              </li>
-            </ul>
-          </li>
-          <li className="liTables">
-            <a href="#table3">Les meilleurs retour client</a>
-            <ul className="ulTables">
-              <li className="liTables">
-                <a href=""></a>
-              </li>
-              <li className="liTables">
-                <a href=""></a>
-              </li>
-              <li className="liTables">
-                <a href=""></a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
+      <TableMatiere
+        name1="BEKO DA 7011 PA - DA 7011 PA"
+        name2="CANDY CSEV8LF-S"
+        name3="Sharp KDGCB7S7PW9"
+        name4="CANDY CSOEC10TREX-47"
+        name5="Bosch WTN85V07FF"
+        name6="Bosch WQG233D0FR"
+        name7="Bosch WTH83V13FR"
+        name8="Electrolux EW6C4853SC"
+        name9="INDESIT YTCM108BFR1"
+        link1="https://amzn.to/3oBjP6e"
+        link2="https://amzn.to/3OFe9ml"
+        link3="https://amzn.to/3ox5mZ1"
+        link4="https://amzn.to/439Keal"
+        link5="https://amzn.to/3WAgTmR"
+        link6="https://amzn.to/4329T4B"
+        link7="https://amzn.to/45C0imy"
+        link8="https://amzn.to/3MHDzNo"
+        link9="https://amzn.to/3C0ggtb"
+      />
       {/*  */}
       <article className="articleTables" id="top">
-        <h1 className="h1Tables">Quels sont les meilleurs machine à lavé en 2023 ?</h1>
-        <span className="CreateBy">Créer le 26 Mai 2023, par Christopher Masson.</span>
+        <h1 className="h1Tables">Quels sont les meilleurs sèche-linge en 2023 ?</h1>
+        <span className="CreateBy">Créer le 2 Mai 2023, par Christopher Masson.</span>
         <section className="sectionTables" id="table0">
           <div className="container-intro">
             <p className="intro-p">
@@ -90,17 +66,15 @@ const SecheLinge = () => {
             <div className="container">
               <div className="panel pricing-table">
                 <div className="pricing-plan">
-                  <img src={MachineLaver0} alt="Machine à laver" className="pricing-img" />
-                  <h3 className="pricing-header">Klarstein Bubble Boost</h3>
+                  <img src={SecheLinge1} alt="Machine à laver" className="pricing-img" />
+                  <h3 className="pricing-header">BEKO - Seche linge frontal BEKO DA 7011 PA - DA 7011 PA</h3>
                   <ul className="pricing-features">
-                    <li className="pricing-features-item">
-                      Pratique et peu encombrante machine à laver compacte pour le camping et les voyages
-                    </li>
-                    <li className="pricing-features-item">Lavage de 0-10 minutes et essorage de 10-15 minutess</li>
+                    <li className="pricing-features-item">Capacité : 7 Kgs </li>
+                    <li className="pricing-features-item">Classe énergétique : C</li>
                   </ul>
-                  <span className="pricing-price">117,59€ TTC</span>
+                  <span className="pricing-price">305,75€ TTC</span>
                   <a
-                    href="https://amzn.to/3MwFrbK"
+                    href="https://amzn.to/3oBjP6e"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="pricing-button"
@@ -110,7 +84,7 @@ const SecheLinge = () => {
                 </div>
 
                 <div className="pricing-plan">
-                  <img src={MachineLaver1} alt="Machine à laver" className="pricing-img" />
+                  <img src={SecheLinge2} alt="Machine à laver" className="pricing-img" />
                   <h3 className="pricing-header">oneConcept SG002 White Line</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">
@@ -120,9 +94,9 @@ const SecheLinge = () => {
                       Tuyau de sortie d'eau solidement ancré Couvercle transparent
                     </li>
                   </ul>
-                  <span className="pricing-price">112,12€ TTC</span>
+                  <span className="pricing-price">323,82€ TTC</span>
                   <a
-                    href="https://amzn.to/3ODJful"
+                    href="https://amzn.to/3OFe9ml"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="pricing-button is-featured"
@@ -132,15 +106,15 @@ const SecheLinge = () => {
                 </div>
 
                 <div className="pricing-plan">
-                  <img src={MachineLaver2} alt="Machine à laver" className="pricing-img" />
+                  <img src={SecheLinge3} alt="Machine à laver" className="pricing-img" />
                   <h3 className="pricing-header">GEDTECH - Lave-Linge GLL71200WH</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">Capacité : 7 Kgs</li>
                     <li className="pricing-features-item">Classe énergétique : A++</li>
                   </ul>
-                  <span className="pricing-price">309,99€ TTC</span>
+                  <span className="pricing-price">332,35€ TTC</span>
                   <a
-                    href="https://amzn.to/3MwLCwn"
+                    href="https://amzn.to/3ox5mZ1"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="pricing-button"
@@ -154,7 +128,7 @@ const SecheLinge = () => {
           <div className="container_articles">
             <h4 className="h4Articles">Klarstein Bubble Boost</h4>
             <div className="image-right">
-              <img src={MachineLaver0} alt="Klarstein Bubble Boost" className="img-right" />
+              <img src={SecheLinge1} alt="Klarstein Bubble Boost" className="img-right" />
               <div>
                 <p className="p-right">
                   La Klarstein Bubble Boost est une machine à laver compacte de 260 watts et d'une capacité de 3 kg pour
@@ -179,7 +153,7 @@ const SecheLinge = () => {
 
             <h4 className="h4Articles">OneConcept SG002 White Line</h4>
             <div className="image-left">
-              <img src={MachineLaver1} alt="OneConcept SG002 White Line" className="img-right" />
+              <img src={SecheLinge2} alt="OneConcept SG002 White Line" className="img-right" />
               <div>
                 <p className="p-left">La oneConcept SG002 est une mini-machine à laver munie de 250W de puissance.</p>
                 <p className="p-left">
@@ -196,7 +170,7 @@ const SecheLinge = () => {
 
             <h4 className="h4Articles">OneConcept SG002 White Line</h4>
             <div className="image-right">
-              <img src={MachineLaver2} alt="OneConcept SG002 White Line" className="img-right" />
+              <img src={SecheLinge3} alt="OneConcept SG002 White Line" className="img-right" />
               <div>
                 <p className="p-right">
                   Découvrez le lave-linge GLL71200WH de GEDTECH, un choix abordable qui ne fait aucun compromis sur la
@@ -233,7 +207,7 @@ const SecheLinge = () => {
             <div className="container">
               <div className="panel pricing-table">
                 <div className="pricing-plan">
-                  <img src={MachineLaver3} alt="Machine à laver" className="pricing-img" />
+                  <img src={SecheLinge4} alt="Machine à laver" className="pricing-img" />
                   <h3 className="pricing-header">GEDTECH - Lave-Linge GLL81400WH</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">Capacité : 8 Kgs </li>
@@ -251,7 +225,7 @@ const SecheLinge = () => {
                 </div>
 
                 <div className="pricing-plan">
-                  <img src={MachineLaver5} alt="Machine à laver" className="pricing-img" />
+                  <img src={SecheLinge5} alt="Machine à laver" className="pricing-img" />
                   <h3 className="pricing-header">Bosch WAJ28067FR</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">
@@ -281,7 +255,7 @@ const SecheLinge = () => {
                 </div>
 
                 <div className="pricing-plan">
-                  <img src={MachineLaver4} alt="Machine à laver" className="pricing-img" />
+                  <img src={SecheLinge6} alt="Machine à laver" className="pricing-img" />
                   <h3 className="pricing-header">GEDTECH - GLL7/8/9</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">Capacité : 7 Kg </li>
@@ -303,7 +277,7 @@ const SecheLinge = () => {
           <div className="container_articles">
             <h4 className="h4Articles">GEDTECH - Lave-Linge GLL81400WH</h4>
             <div className="image-right">
-              <img src={MachineLaver3} alt="Klarstein Bubble Boost" className="img-right" />
+              <img src={SecheLinge4} alt="Klarstein Bubble Boost" className="img-right" />
               <div>
                 <p className="p-right">
                   Découvrez le lave-linge GLL81400WH de GEDTECH, une référence incontournable dans son domaine. Ce
@@ -333,7 +307,7 @@ const SecheLinge = () => {
 
             <h4 className="h4Articles">Bosch WAJ28067FR</h4>
             <div className="image-left">
-              <img src={MachineLaver5} alt="OneConcept SG002 White Line" className="img-right" />
+              <img src={SecheLinge5} alt="OneConcept SG002 White Line" className="img-right" />
               <div>
                 <p className="p-left">
                   Le lave-linge Bosch WAJ28067FR est équipé d'une capacité généreuse, vous permettant de laver de
@@ -356,7 +330,7 @@ const SecheLinge = () => {
 
             <h4 className="h4Articles">GEDTECH - GLL7/8/9</h4>
             <div className="image-right">
-              <img src={MachineLaver4} alt="OneConcept SG002 White Line" className="img-right" />
+              <img src={SecheLinge6} alt="OneConcept SG002 White Line" className="img-right" />
               <div>
                 <p className="p-right">
                   Les modèles GLL7/8/9 de GEDTECH sont des lave-linge de qualité qui partagent de nombreuses
@@ -388,7 +362,7 @@ const SecheLinge = () => {
             <div className="container">
               <div className="panel pricing-table">
                 <div className="pricing-plan">
-                  <img src={MachineLaver6} alt="Machine à laver" className="pricing-img" />
+                  <img src={SecheLinge7} alt="Machine à laver" className="pricing-img" />
                   <h3 className="pricing-header">SAMSUNG WW90TA046AX</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">Capacité 9 Kilogrammes</li>
@@ -406,7 +380,7 @@ const SecheLinge = () => {
                 </div>
 
                 <div className="pricing-plan">
-                  <img src={MachineLaver7} alt="Machine à laver" className="pricing-img" />
+                  <img src={SecheLinge8} alt="Machine à laver" className="pricing-img" />
                   <h3 className="pricing-header">Bosch WGG14201FR</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">Capacité 63 Litres</li>
@@ -424,7 +398,7 @@ const SecheLinge = () => {
                 </div>
 
                 <div className="pricing-plan">
-                  <img src={MachineLaver8} alt="Machine à laver" className="pricing-img" />
+                  <img src={SecheLinge9} alt="Machine à laver" className="pricing-img" />
                   <h3 className="pricing-header">CANDY Lave linge Frontal CSS1410TWMCBE-47</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">Capacité 10 Kilogrammes</li>
@@ -446,7 +420,7 @@ const SecheLinge = () => {
           <div className="container_articles">
             <h4 className="h4Articles">SAMSUNG WW90TA046AX</h4>
             <div className="image-right">
-              <img src={MachineLaver6} alt="Klarstein Bubble Boost" className="img-right" />
+              <img src={SecheLinge6} alt="Klarstein Bubble Boost" className="img-right" />
               <div>
                 <p className="p-right">
                   BOSCH WGG14201FR est un produit phare qui se positionne comme l'un des meilleurs choix dans la
@@ -475,7 +449,7 @@ const SecheLinge = () => {
 
             <h4 className="h4Articles">Bosch WGG14201FR</h4>
             <div className="image-left">
-              <img src={MachineLaver7} alt="OneConcept SG002 White Line" className="img-right" />
+              <img src={SecheLinge7} alt="OneConcept SG002 White Line" className="img-right" />
               <div>
                 <p className="p-left">
                   Le lave-linge Bosch WAJ28067FR est équipé d'une capacité généreuse, vous permettant de laver de
@@ -505,7 +479,7 @@ const SecheLinge = () => {
 
             <h4 className="h4Articles">CANDY Lave linge Frontal CSS1410TWMCBE-47</h4>
             <div className="image-right">
-              <img src={MachineLaver8} alt="OneConcept SG002 White Line" className="img-right" />
+              <img src={SecheLinge9} alt="OneConcept SG002 White Line" className="img-right" />
               <div>
                 <p className="p-right">
                   Le lave-linge frontal CSS1410TWMCBE-47 de Candy est un appareil qui se démarque de ses concurrents

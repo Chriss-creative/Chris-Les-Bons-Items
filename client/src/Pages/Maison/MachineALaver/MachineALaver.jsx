@@ -3,66 +3,41 @@ import "../../pages.scss";
 import "./index";
 
 // img
-import MachineLaver0 from "../../../assets/images/MachineLaver0.jpg";
-import MachineLaver1 from "../../../assets/images/MachineLaver1.jpg";
-import MachineLaver2 from "../../../assets/images/MachineLaver2.jpg";
-import MachineLaver3 from "../../../assets/images/MachineLaver3.jpg";
-import MachineLaver4 from "../../../assets/images/MachineLaver4.jpg";
-import MachineLaver5 from "../../../assets/images/MachineLaver5.jpg";
-import MachineLaver6 from "../../../assets/images/MachineLaver6.jpg";
-import MachineLaver7 from "../../../assets/images/MachineLaver7.jpg";
-import MachineLaver8 from "../../../assets/images/MachineLaver8.jpg";
+import MachineLaver0 from "../../../assets/images/maison/machineLaver/MachineLaver0.jpg";
+import MachineLaver1 from "../../../assets/images/maison/machineLaver/MachineLaver1.jpg";
+import MachineLaver2 from "../../../assets/images/maison/machineLaver/MachineLaver2.jpg";
+import MachineLaver3 from "../../../assets/images/maison/machineLaver/MachineLaver3.jpg";
+import MachineLaver4 from "../../../assets/images/maison/machineLaver/MachineLaver4.jpg";
+import MachineLaver5 from "../../../assets/images/maison/machineLaver/MachineLaver5.jpg";
+import MachineLaver6 from "../../../assets/images/maison/machineLaver/MachineLaver6.jpg";
+import MachineLaver7 from "../../../assets/images/maison/machineLaver/MachineLaver7.jpg";
+import MachineLaver8 from "../../../assets/images/maison/machineLaver/MachineLaver8.jpg";
+import TableMatiere from "../../../Components/TableMatiere/TableMatiere";
 
 const MachineALaver = () => {
   return (
     <div className="home">
-      {/*--------- Tables de matière -------- */}
-      <nav className="navTables">
-        <ul className="ulTables">
-          <li className="liTables">
-            <a href="#table0">Notre sélection au moins cher</a>
-            <ul className="ulTables">
-              <li className="liTables">
-                <a href="https://amzn.to/3MwFrbK">Klarstein Bubble Boost</a>
-              </li>
-              <li className="liTables">
-                <a href="https://amzn.to/3ODJful">ONECONCEPT SG002 WHITE LINE</a>
-              </li>
-              <li className="liTables">
-                <a href="https://amzn.to/3MwLCwn">GEDTECH - GLL71200WH</a>
-              </li>
-            </ul>
-          </li>
-          <li className="liTables">
-            <a href="#table1">Notre sélection meilleurs qualité</a>
-            <ul className="ulTables">
-              <li className="liTables">
-                <a href="https://amzn.to/3ougDt4">GEDTECH - GLL81400WH</a>
-              </li>
-              <li className="liTables">
-                <a href="https://amzn.to/430BcMC">BOSCH WAJ28067FR</a>
-              </li>
-              <li className="liTables">
-                <a href="https://amzn.to/3MA0Kcl">GEDTECH - GLL7/8/9</a>
-              </li>
-            </ul>
-          </li>
-          <li className="liTables">
-            <a href="#table3">Les meilleurs retour client</a>
-            <ul className="ulTables">
-              <li className="liTables">
-                <a href="https://amzn.to/45ry2TR">SAMSUNG WW90TA046AX</a>
-              </li>
-              <li className="liTables">
-                <a href="https://amzn.to/3BZbaxv">BOSCH WGG14201FR</a>
-              </li>
-              <li className="liTables">
-                <a href="https://amzn.to/3BZbaxv">CANDY - CSS1410TWMCBE-47</a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </nav>
+      <TableMatiere
+        link1="https://amzn.to/3MwFrbK"
+        link2="https://amzn.to/3ODJful"
+        link3="https://amzn.to/3MwLCwn"
+        link4="https://amzn.to/3MChwrl"
+        link5="https://amzn.to/430BcMC"
+        link6="https://amzn.to/3MA0Kcl"
+        link7="https://amzn.to/45ry2TR"
+        link8="https://amzn.to/3OFdgKx"
+        link9="https://amzn.to/3BZbaxv"
+        name1="Klarstein Bubble Boost"
+        name2="ONECONCEPT SG002 WHITE LINE"
+        name3="GEDTECH - GLL71200WH"
+        name4="GEDTECH - GLL91400WH "
+        name5="BOSCH WAJ28067FR"
+        name6="GEDTECH - GLL7/8/9"
+        name7="SAMSUNG WW90TA046AX"
+        name8="BOSCH WGG14201FR"
+        name9="CANDY - CSS1410TWMCBE-47"
+      />
+
       {/*  */}
       <article className="articleTables" id="top">
         <h1 className="h1Tables">Quels sont les meilleurs machine à lavé en 2023 ?</h1>
@@ -235,14 +210,14 @@ const MachineALaver = () => {
               <div className="panel pricing-table">
                 <div className="pricing-plan">
                   <img src={MachineLaver3} alt="Machine à laver" className="pricing-img" />
-                  <h3 className="pricing-header">GEDTECH - Lave-Linge GLL81400WH</h3>
+                  <h3 className="pricing-header">GEDTECH - Lave-Linge GLL91400WH </h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">Capacité : 8 Kgs </li>
                     <li className="pricing-features-item">322 avis laisser, articles qui ont su faire ces preuves !</li>
                   </ul>
-                  <span className="pricing-price"> 329,99€ TTC</span>
+                  <span className="pricing-price"> 349,99€ TTC</span>
                   <a
-                    href="https://amzn.to/3ougDt4"
+                    href="https://amzn.to/3MChwrl4"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="pricing-button"
@@ -302,18 +277,18 @@ const MachineALaver = () => {
             </div>
           </div>
           <div className="container_articles">
-            <h4 className="h4Articles">GEDTECH - Lave-Linge GLL81400WH</h4>
+            <h4 className="h4Articles">GEDTECH - Lave-Linge GLL91400WH</h4>
             <div className="image-right">
               <img src={MachineLaver3} alt="Klarstein Bubble Boost" className="img-right" />
               <div>
                 <p className="p-right">
-                  Découvrez le lave-linge GLL81400WH de GEDTECH, une référence incontournable dans son domaine. Ce
+                  Découvrez le lave-linge GLL91400WH de GEDTECH, une référence incontournable dans son domaine. Ce
                   modèle allie performance, qualité et durabilité pour vous offrir une expérience de lavage
                   exceptionnelle. Doté d'une capacité généreuse, vous pouvez laver de grandes quantités de linge en une
                   seule fois, ce qui vous fait gagner du temps et de l'énergie.
                 </p>
                 <p className="p-right">
-                  Le lave-linge GLL81400WH est équipé de technologies avancées qui garantissent des résultats de lavage
+                  Le lave-linge GLL91400WH est équipé de technologies avancées qui garantissent des résultats de lavage
                   impeccables. Ses différents programmes de lavage permettent d'adapter le cycle à tous types de
                   textiles et de besoins spécifiques. Vous pouvez compter sur ce lave-linge pour éliminer efficacement
                   les taches tenaces et les saletés, tout en préservant la qualité et la douceur de vos vêtements.
@@ -324,7 +299,7 @@ const MachineALaver = () => {
                   tranquille en investissant dans cet appareil de confiance.
                 </p>
                 <p className="p-right">
-                  En choisissant le lave-linge GLL81400WH de GEDTECH, vous optez pour une référence dans son milieu,
+                  En choisissant le lave-linge GLL91400WH de GEDTECH, vous optez pour une référence dans son milieu,
                   reconnue pour ses performances supérieures et sa longévité. Profitez d'une propreté éclatante à chaque
                   lavage et d'une tranquillité d'esprit grâce à la qualité exceptionnelle de ce lave-linge. Faites
                   confiance à GEDTECH pour répondre à vos besoins de lavage les plus exigeants.
@@ -361,7 +336,7 @@ const MachineALaver = () => {
               <div>
                 <p className="p-right">
                   Les modèles GLL7/8/9 de GEDTECH sont des lave-linge de qualité qui partagent de nombreuses
-                  caractéristiques avec le modèle GLL81400WH de la même marque. Bien qu'il existe une légère différence
+                  caractéristiques avec le modèle GLL91400WH de la même marque. Bien qu'il existe une légère différence
                   de capacité, la qualité et la performance restent les mêmes.
                 </p>
                 <p className="p-right">
