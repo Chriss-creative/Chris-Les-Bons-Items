@@ -47,7 +47,7 @@ const SecheLinge = (props) => {
             <p className="intro-p">
               Dans un marché rempli d'options variées, il est essentiel de prendre soin de choisir judicieusement les
               articles qui nous entourent. Cela s'applique également à l'achat d'un nouvel appareil électroménager
-              essentiel dans notre quotidien : la machine à laver. Afin de faire le choix le plus adapté à nos besoins,
+              essentiel dans notre quotidien : le sèche linge. Afin de faire le choix le plus adapté à nos besoins,
               il est important de tenir compte de plusieurs critères clés :
             </p>
             <li className="li-intro">Le Type de la machine</li>

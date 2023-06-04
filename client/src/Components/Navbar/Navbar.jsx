@@ -117,7 +117,7 @@ const Navbar = () => {
                         Repasser <i className="fas fa-angle-down"></i>
                       </a>
                       <ul className="sub_menu">
-                        <a className="aNav" href="#">
+                        <a className="aNav" href="/maison/repasser/central-vapeur">
                           Centrale vapeur
                         </a>
                         <a className="aNav" href="#">
