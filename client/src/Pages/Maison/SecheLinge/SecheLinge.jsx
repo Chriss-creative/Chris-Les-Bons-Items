@@ -67,12 +67,12 @@ const SecheLinge = (props) => {
               <div className="panel pricing-table">
                 <div className="pricing-plan">
                   <img src={SecheLinge1} alt="Machine à laver" className="pricing-img" />
-                  <h3 className="pricing-header">BEKO - Seche linge frontal BEKO DA 7011 PA - DA 7011 PA</h3>
+                  <h3 className="pricing-header">BEKO - Seche linge frontal BEKO DA 7011 PA</h3>
                   <ul className="pricing-features">
-                    <li className="pricing-features-item">Capacité : 7 Kgs </li>
                     <li className="pricing-features-item">Classe énergétique : C</li>
+                    <li className="pricing-features-item">Capacité : 7 Kgs </li>
                   </ul>
-                  <span className="pricing-price">305,75€ TTC</span>
+                  <span className="pricing-price">311,74€ TTC</span>
                   <a
                     href="https://amzn.to/3oBjP6e"
                     target="_blank"
@@ -85,14 +85,10 @@ const SecheLinge = (props) => {
 
                 <div className="pricing-plan">
                   <img src={SecheLinge2} alt="Machine à laver" className="pricing-img" />
-                  <h3 className="pricing-header">oneConcept SG002 White Line</h3>
+                  <h3 className="pricing-header">CANDY Sèche linge Evacuation CSEV8LF-S</h3>
                   <ul className="pricing-features">
-                    <li className="pricing-features-item">
-                      Poignées latérales pour un transport indolore. Fonctionnement silencieux
-                    </li>
-                    <li className="pricing-features-item">
-                      Tuyau de sortie d'eau solidement ancré Couvercle transparent
-                    </li>
+                    <li className="pricing-features-item">Classe énergétique : B</li>
+                    <li className="pricing-features-item">Capacité : 8 Kgs</li>
                   </ul>
                   <span className="pricing-price">323,82€ TTC</span>
                   <a
@@ -107,12 +103,12 @@ const SecheLinge = (props) => {
 
                 <div className="pricing-plan">
                   <img src={SecheLinge3} alt="Machine à laver" className="pricing-img" />
-                  <h3 className="pricing-header">GEDTECH - Lave-Linge GLL71200WH</h3>
+                  <h3 className="pricing-header">Sèche linge Condensation Sharp KDGCB7S7PW9</h3>
                   <ul className="pricing-features">
+                    <li className="pricing-features-item">Classe énergétique : B</li>
                     <li className="pricing-features-item">Capacité : 7 Kgs</li>
-                    <li className="pricing-features-item">Classe énergétique : A++</li>
                   </ul>
-                  <span className="pricing-price">332,35€ TTC</span>
+                  <span className="pricing-price">334,00€ TTC</span>
                   <a
                     href="https://amzn.to/3ox5mZ1"
                     target="_blank"
@@ -126,72 +122,82 @@ const SecheLinge = (props) => {
             </div>
           </div>
           <div className="container_articles">
-            <h4 className="h4Articles">Klarstein Bubble Boost</h4>
+            <h4 className="h4Articles">Le BEKO DA 7011 PA</h4>
             <div className="image-right">
-              <img src={SecheLinge1} alt="Klarstein Bubble Boost" className="img-right" />
+              <img src={SecheLinge1} alt="Le BEKO DA 7011 PA" className="img-right" />
               <div>
                 <p className="p-right">
-                  La Klarstein Bubble Boost est une machine à laver compacte de 260 watts et d'une capacité de 3 kg pour
-                  vos déplacements.
+                  Capacité : Le BEKO DA 7011 PA dispose d'une capacité généreuse de 7 kg, ce qui vous permet de sécher
+                  une grande quantité de linge en une seule fois. Cela peut être particulièrement avantageux si vous
+                  avez une famille nombreuse ou si vous faites régulièrement de grosses lessives.
                 </p>
                 <p className="p-right">
-                  Conçue pour une utilisation hors des lieux habituels, la Bubble Boost facilite le lavage et l'essorage
-                  en camping, en voyage ou dans le jardin. Mais la machine à laver compacte est aussi parfaitement
-                  équipée pour les célibataires et les étudiants. Avec sa capacité de lavage de 3 kg et sa capacité
-                  d'essorage de 1 kg, vous gèrerez facilement des montagnes de linge. Le cycle de lavage rapide de 0-10
-                  et le cycle d'essorage de 0-5 minutes vous y aideront. Grâce à son poids réduit, à ses dimensions
-                  compactes et à ses poignées pratiques, la toploader Klarstein Bubble Boost est non seulement très peu
-                  encombrante, mais également facile à ranger et à transporter. Son corps en plastique robuste et
-                  incassable impressionne par ses élégants coloris noir et blanc.
+                  Design frontal : Avec son design frontal, ce sèche-linge est facile à charger et à décharger. Vous
+                  pouvez ouvrir la porte située à l'avant de l'appareil pour accéder au tambour et y placer ou retirer
+                  votre linge sans difficulté.
                 </p>
                 <p className="p-right">
-                  Pour un lavage et un essorage simples et rapides : la machine à laver polyvalente Klarstein Bubble
-                  Boost.
+                  Programmes de séchage : Le DA 7011 PA propose une gamme variée de programmes de séchage adaptés à
+                  différents types de textiles et de besoins spécifiques. Parmi les programmes couramment disponibles,
+                  on trouve des options pour les vêtements en coton, les tissus délicats, les textiles synthétiques, les
+                  articles volumineux, etc. Ces programmes garantissent un séchage optimal tout en préservant la qualité
+                  de vos vêtements.
+                </p>
+                <p className="p-right">
+                  Fonction de séchage rapide : Pour les vêtements qui ont besoin d'être prêts rapidement, ce sèche-linge
+                  est équipé d'une fonction de séchage rapide. Elle vous permet de réduire le temps de séchage pour les
+                  articles qui nécessitent une attention immédiate.
                 </p>
               </div>
             </div>
 
-            <h4 className="h4Articles">OneConcept SG002 White Line</h4>
+            <h4 className="h4Articles">CANDY SÈCHE LINGE EVACUATION CSEV8LF-S</h4>
             <div className="image-left">
-              <img src={SecheLinge2} alt="OneConcept SG002 White Line" className="img-right" />
+              <img src={SecheLinge2} alt="CANDY SÈCHE LINGE EVACUATION CSEV8LF-S" className="img-left" />
               <div>
-                <p className="p-left">La oneConcept SG002 est une mini-machine à laver munie de 250W de puissance.</p>
                 <p className="p-left">
-                  Ses dimensions réduites prédestinent la machine à laver à être placée dans les salles de bain de
-                  taille modeste - par ex. dans un studio, un mobile home ou un cabanon de jardin. Son poids léger
-                  combiné à une consommation en eau et en énergie moindre en font en outre une excellente machine à
-                  laver de voyage ou pour le camping. La capacité de la machine à laver d'une valeur de 2,8kg convient
-                  aux besoins d'un célibataire sur plusieurs jours ou même utilisée plus régulièrement à une famille en
-                  camping.
+                  Le CANDY CSEV8LF-S est un sèche-linge à évacuation, ce qui signifie qu'il extrait l'humidité du linge
+                  et la libère par un tuyau d'évacuation. Il est important de noter que vous devrez installer le tuyau
+                  d'évacuation près d'une fenêtre, d'une sortie d'air ou d'un conduit d'évacuation approprié.
                 </p>
-                <p className="p-left">Notez que l'appareil ne dispose pas de fonction essorage.</p>
+                <p className="p-left">
+                  Ce sèche-linge à évacuation a une capacité généreuse de XX kg, vous permettant de sécher une grande
+                  quantité de linge en une seule fois. Cela peut être particulièrement utile si vous avez une famille
+                  nombreuse ou si vous avez régulièrement une charge importante de linge à sécher.
+                </p>
+                <p className="p-left">
+                  Cet appareil est équipé de commandes intuitives qui permettent de sélectionner facilement les
+                  programmes et les réglages. Le panneau de contrôle est convivial et vous permet d'ajuster la durée du
+                  séchage, de programmer le départ différé et d'accéder à d'autres fonctionnalités.
+                </p>
+                <p className="p-left">
+                  Le sèche-linge est doté d'un filtre facilement accessible, ce qui facilite le nettoyage et l'entretien
+                  régulier de l'appareil. Le nettoyage régulier du filtre contribue à maintenir les performances
+                  optimales du sèche-linge.
+                </p>
               </div>
             </div>
 
-            <h4 className="h4Articles">OneConcept SG002 White Line</h4>
+            <h4 className="h4Articles">SÈCHE LINGE CONDENSATION SHARP KDGCB7S7PW9</h4>
             <div className="image-right">
-              <img src={SecheLinge3} alt="OneConcept SG002 White Line" className="img-right" />
+              <img src={SecheLinge3} alt="SÈCHE LINGE CONDENSATION SHARP KDGCB7S7PW9" className="img-right" />
               <div>
                 <p className="p-right">
-                  Découvrez le lave-linge GLL71200WH de GEDTECH, un choix abordable qui ne fait aucun compromis sur la
-                  performance. En tant que modèle d'entrée de gamme, ce lave-linge offre une solution économique pour
-                  vos besoins de lavage quotidiens. Avec sa capacité généreuse, vous pouvez laver de grandes quantités
-                  de linge en une seule fois, ce qui vous fait gagner du temps et de l'énergie. Les différents
-                  programmes de lavage disponibles vous permettent d'adapter le cycle à vos besoins spécifiques.
+                  Le SHARP KDGCB7S7PW9 est un sèche-linge à condensation, ce qui signifie qu'il extrait l'humidité du
+                  linge et la condense en eau. Contrairement aux sèche-linges à évacuation, il n'est pas nécessaire
+                  d'installer un tuyau d'évacuation. L'eau condensée est généralement collectée dans un réservoir
+                  intégré ou peut être évacuée directement via un tuyau de vidange.
                 </p>
                 <p className="p-right">
-                  Cependant, il est important de noter que le lave-linge GLL71200WH de GEDTECH est positionné comme un
-                  modèle abordable et son prix reflète cela. Bien qu'il puisse être plus économique, il est essentiel de
-                  comprendre que cela peut avoir un impact sur sa longévité et sa durabilité par rapport à des modèles
-                  plus haut de gamme. Nous recommandons d'en prendre soin et de suivre les instructions d'entretien afin
-                  de maximiser sa durée de vie.
+                  Ce sèche-linge est équipé de technologies avancées pour optimiser le processus de séchage. Cela peut
+                  inclure des capteurs d'humidité qui détectent le degré d'humidité du linge et ajustent automatiquement
+                  la durée du séchage en conséquence, ce qui permet d'économiser de l'énergie et de prévenir le
+                  sur-séchage.
                 </p>
                 <p className="p-right">
-                  Si vous recherchez une option budgétaire qui répondra à vos besoins de lavage sans vous ruiner, le
-                  lave-linge GLL71200WH de GEDTECH peut être une option intéressante. Cependant, si vous recherchez un
-                  investissement à long terme et une garantie de durabilité, nous vous suggérons d'envisager des modèles
-                  de gamme supérieure. N'hésitez pas à consulter notre équipe pour obtenir des conseils personnalisés et
-                  trouver le lave-linge qui correspond le mieux à vos besoins et à votre budget.
+                  Le SHARP KDGCB7S7PW9 est généralement équipé d'une fonction anti-froissage qui permet de réduire la
+                  formation de plis sur les vêtements. Cette fonction est utile si vous ne pouvez pas retirer
+                  immédiatement le linge du sèche-linge une fois le cycle de séchage terminé.
                 </p>
               </div>
             </div>
@@ -207,15 +213,22 @@ const SecheLinge = (props) => {
             <div className="container">
               <div className="panel pricing-table">
                 <div className="pricing-plan">
-                  <img src={SecheLinge4} alt="Machine à laver" className="pricing-img" />
-                  <h3 className="pricing-header">GEDTECH - Lave-Linge GLL81400WH</h3>
+                  <img src={SecheLinge6} alt="Machine à laver" className="pricing-img" />
+                  <h3 className="pricing-header">Bosch WQG233D0FR</h3>
                   <ul className="pricing-features">
                     <li className="pricing-features-item">Capacité : 8 Kgs </li>
-                    <li className="pricing-features-item">322 avis laisser, articles qui ont su faire ces preuves !</li>
+                    <li className="pricing-features-item">
+                      Le sèche linge de Bosch est doté de capteurs AutoDry qui contrôlent en permanence la température
+                      et l'humidité, empêchant ainsi tout risque de surchauffe.
+                    </li>
+                    <li className="pricing-features-item">
+                      LDoté du système de séchage SensitiveDrying System, l'air chaud pénètre en douceur partout dans le
+                      tambour pour sécher délicatement votre linge sans l'abîmer.
+                    </li>
                   </ul>
-                  <span className="pricing-price"> 329,99€ TTC</span>
+                  <span className="pricing-price">718,00 TTC</span>
                   <a
-                    href="https://amzn.to/3ougDt4"
+                    href="https://amzn.to/4329T4B"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="pricing-button"
@@ -226,26 +239,22 @@ const SecheLinge = (props) => {
 
                 <div className="pricing-plan">
                   <img src={SecheLinge5} alt="Machine à laver" className="pricing-img" />
-                  <h3 className="pricing-header">Bosch WAJ28067FR</h3>
+                  <h3 className="pricing-header">Bosch WTN85V07FF</h3>
                   <ul className="pricing-features">
+                    <li className="pricing-features-item">Capacité : 7 Kgs </li>
+
                     <li className="pricing-features-item">
-                      Le lave-linge WAJ28067FR de Bosch est doté d'un moteur EcoSilence Drive de Bosch est tellement
-                      silencieux qu'il se remarque à peine quand il tourne.
+                      Le sèche linge Bosch est équipé de la technologie AutoDry permettant un séchage parfait et
+                      respectueyx des textiles grâce à la précision des sondes.
                     </li>
                     <li className="pricing-features-item">
-                      Grâce à la technologie Active Water économisez jusqu'à 50%. Le lave linge détecte la charge de
-                      linge exacte et adapte la consommation d'eau pour résultat de lavage parfait.
-                    </li>
-                    <li className="pricing-features-item">
-                      Le lave-linge dispose d'une fonction speedperfect qui permet de réduire la durée des cycles de
-                      lavage jusqu'à 65 %, sans compromettre les résultats.
+                      Le sèche linge est doté d'un système de séchage sensitif garantissant un resultat homogène en
+                      limitant les plis.
                     </li>
                   </ul>
-                  <span className="pricing-price">
-                    399,99€ TTC <span>-5 %</span>
-                  </span>
+                  <span className="pricing-price">467,50€ TTC</span>
                   <a
-                    href="https://amzn.to/430BcMC"
+                    href="https://amzn.to/3WAgTmR"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="pricing-button is-featured"
@@ -255,15 +264,15 @@ const SecheLinge = (props) => {
                 </div>
 
                 <div className="pricing-plan">
-                  <img src={SecheLinge6} alt="Machine à laver" className="pricing-img" />
-                  <h3 className="pricing-header">GEDTECH - GLL7/8/9</h3>
+                  <img src={SecheLinge4} alt="Machine à laver" className="pricing-img" />
+                  <h3 className="pricing-header">CANDY Sèche linge Condensation CSOEC10TREX-47</h3>
                   <ul className="pricing-features">
-                    <li className="pricing-features-item">Capacité : 7 Kg </li>
-                    <li className="pricing-features-item">Machine la plus vendu sur amazon</li>
+                    <li className="pricing-features-item">Grande capacité de 10 kg</li>
+                    <li className="pricing-features-item">Bac à eau easy case</li>
                   </ul>
-                  <span className="pricing-price">319,99€ TTC</span>
+                  <span className="pricing-price">386,05€ TTC</span>
                   <a
-                    href="https://amzn.to/3MA0Kcl"
+                    href="https://amzn.to/439Keal"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="pricing-button"
@@ -275,77 +284,97 @@ const SecheLinge = (props) => {
             </div>
           </div>
           <div className="container_articles">
-            <h4 className="h4Articles">GEDTECH - Lave-Linge GLL81400WH</h4>
+            <h4 className="h4Articles">BOSCH WQG233D0FR</h4>
             <div className="image-right">
               <img src={SecheLinge4} alt="Klarstein Bubble Boost" className="img-right" />
               <div>
                 <p className="p-right">
-                  Découvrez le lave-linge GLL81400WH de GEDTECH, une référence incontournable dans son domaine. Ce
-                  modèle allie performance, qualité et durabilité pour vous offrir une expérience de lavage
-                  exceptionnelle. Doté d'une capacité généreuse, vous pouvez laver de grandes quantités de linge en une
-                  seule fois, ce qui vous fait gagner du temps et de l'énergie.
+                  Découvrez le Bosch WQG233D0FR, un lave-linge d'exception qui allie performances de pointe et fiabilité
+                  inégalée. Avec sa capacité de chargement généreuse et sa vitesse d'essorage élevée, ce lave-linge vous
+                  permettra de laver de grandes quantités de linge rapidement et efficacement.
                 </p>
                 <p className="p-right">
-                  Le lave-linge GLL81400WH est équipé de technologies avancées qui garantissent des résultats de lavage
-                  impeccables. Ses différents programmes de lavage permettent d'adapter le cycle à tous types de
-                  textiles et de besoins spécifiques. Vous pouvez compter sur ce lave-linge pour éliminer efficacement
-                  les taches tenaces et les saletés, tout en préservant la qualité et la douceur de vos vêtements.
+                  Grâce à sa large gamme de programmes de lavage, le Bosch WQG233D0FR s'adapte à tous les types de
+                  textiles et de niveaux de saleté, vous offrant des résultats impeccables à chaque lavage. Que vous
+                  ayez des vêtements délicats, des textiles allergènes ou simplement besoin d'un lavage rapide, ce
+                  lave-linge répondra à tous vos besoins.
                 </p>
                 <p className="p-right">
-                  La fiabilité et la durabilité sont des caractéristiques clés du lave-linge GLL81400WH. Il a été conçu
-                  pour résister à une utilisation intensive et pour durer dans le temps. Vous pouvez donc avoir l'esprit
-                  tranquille en investissant dans cet appareil de confiance.
+                  S'engageant en faveur de l'efficacité énergétique, il est conçu pour minimiser la consommation
+                  d'énergie tout en préservant l'environnement. Sa technologie avancée ActiveWater ajuste
+                  automatiquement la quantité d'eau utilisée en fonction de la charge, réduisant ainsi le gaspillage et
+                  vous permettant de réaliser des économies sur votre facture d'électricité.
                 </p>
                 <p className="p-right">
-                  En choisissant le lave-linge GLL81400WH de GEDTECH, vous optez pour une référence dans son milieu,
-                  reconnue pour ses performances supérieures et sa longévité. Profitez d'une propreté éclatante à chaque
-                  lavage et d'une tranquillité d'esprit grâce à la qualité exceptionnelle de ce lave-linge. Faites
-                  confiance à GEDTECH pour répondre à vos besoins de lavage les plus exigeants.
+                  L'utilisation du Bosch WQG233D0FR est un jeu d'enfant grâce à son écran LCD intuitif et ses commandes
+                  simples. Vous pourrez personnaliser vos cycles de lavage selon vos préférences et votre emploi du
+                  temps grâce aux options de programmation différée, vous offrant une flexibilité totale.
+                </p>
+                <p className="p-right">
+                  Faites confiance à la réputation de Bosch en matière de durabilité et de fiabilité. Ce sèche linge est
+                  construit avec des matériaux de qualité supérieure, vous garantissant une utilisation quotidienne sans
+                  souci et une performance optimale à long terme.
                 </p>
               </div>
             </div>
 
-            <h4 className="h4Articles">Bosch WAJ28067FR</h4>
+            <h4 className="h4Articles">BOSCH WTN85V07FF</h4>
             <div className="image-left">
-              <img src={SecheLinge5} alt="OneConcept SG002 White Line" className="img-right" />
+              <img src={SecheLinge5} alt="OneConcept SG002 White Line" className="img-left" />
               <div>
                 <p className="p-left">
-                  Le lave-linge Bosch WAJ28067FR est équipé d'une capacité généreuse, vous permettant de laver de
-                  grandes quantités de linge en une seule fois. Cela vous fait gagner du temps et de l'énergie, vous
-                  offrant une solution pratique pour vos besoins de lavage quotidiens.
+                  Le Bosch WTN85V07FF est équipé d'une large gamme de programmes de séchage spécialement conçus pour
+                  s'adapter à tous les types de textiles et de besoins. Des programmes délicats aux programmes de
+                  séchage rapide, en passant par les programmes spécifiques aux vêtements de sport, vous trouverez
+                  toujours le réglage idéal pour préserver la qualité de vos vêtements.
                 </p>
                 <p className="p-left">
-                  Grâce à ses multiples programmes de lavage, vous pouvez choisir celui qui convient le mieux à vos
-                  besoins spécifiques. Que ce soit pour les vêtements délicats, les textiles épais ou les charges
-                  mixtes, ce lave-linge vous offre une polyvalence optimale.
+                  L'utilisation de ce lave-linge est un jeu d'enfant grâce à son écran intuitif et à ses commandes
+                  conviviales. Vous pouvez facilement personnaliser les réglages selon vos préférences et bénéficier de
+                  la programmation différée pour adapter le séchage à votre emploi du temps.
                 </p>
                 <p className="p-left">
-                  La marque Bosch est réputée pour sa qualité et sa durabilité. Le lave-linge WAJ28067FR ne fait pas
-                  exception, offrant une construction solide et une longévité à long terme. Vous pouvez avoir confiance
-                  en cet appareil pour répondre à tous vos besoins de lavage et pour vous accompagner pendant de
-                  nombreuses années.
+                  La fiabilité et la durabilité sont les maîtres mots du Bosch WTN85V07FF. Fabriqué avec des matériaux
+                  de haute qualité, cet appareil est conçu pour résister à une utilisation intensive et vous accompagner
+                  pendant de nombreuses années.
                 </p>
+                <p className="p-"></p>
               </div>
             </div>
 
-            <h4 className="h4Articles">GEDTECH - GLL7/8/9</h4>
+            <h4 className="h4Articles">CANDY - CSOEC10TREX-47</h4>
             <div className="image-right">
               <img src={SecheLinge6} alt="OneConcept SG002 White Line" className="img-right" />
               <div>
                 <p className="p-right">
-                  Les modèles GLL7/8/9 de GEDTECH sont des lave-linge de qualité qui partagent de nombreuses
-                  caractéristiques avec le modèle GLL81400WH de la même marque. Bien qu'il existe une légère différence
-                  de capacité, la qualité et la performance restent les mêmes.
+                  Optez pour le sèche-linge à condensation Candy CSOEC10TREX-47, l'allié incontournable pour obtenir un
+                  linge parfaitement sec. Grâce à ses performances de pointe et à sa fiabilité exceptionnelle, ce
+                  sèche-linge vous offre une expérience de séchage efficace et pratique.
                 </p>
                 <p className="p-right">
-                  Bien que la capacité soit légèrement réduite par rapport au modèle GLL81400WH, ces modèles GLL7/8/9
-                  restent tout aussi fiables et durables. Ils sont conçus pour résister à une utilisation intensive et
-                  pour vous accompagner pendant de nombreuses années.
+                  Avec une capacité généreuse, le Candy CSOEC10TREX-47 vous permet de sécher de grandes quantités de
+                  linge en une seule fois, vous faisant gagner un temps précieux. Son tambour spacieux assure une
+                  répartition homogène de la chaleur, garantissant des résultats uniformes pour tous vos vêtements.
                 </p>
                 <p className="p-right">
-                  Le modèle GLL7/8/9 de GEDTECH est l'option idéale pour répondre aux besoins de lavage d'un foyer. Que
-                  vous viviez seul, en couple ou en famille, ce lave-linge vous offre la performance et la polyvalence
-                  nécessaires pour prendre soin de votre linge au quotidien.
+                  Bénéficiez de la technologie de condensation innovante de ce sèche-linge, qui élimine le besoin d'une
+                  évacuation externe. Vous pouvez l'installer où bon vous semble, sans contrainte liée à une sortie
+                  d'air spécifique.
+                </p>
+                <p className="p-right">
+                  Choisissez parmi une variété de programmes de séchage adaptés à tous les types de textiles et à tous
+                  vos besoins. Des programmes délicats pour les vêtements fragiles aux programmes rapides pour un
+                  séchage express, vous trouverez toujours le réglage idéal pour vos articles.
+                </p>
+                <p className="p-right">
+                  Le panneau de contrôle intuitif et convivial du CSOEC10TREX-47 vous permet de personnaliser les
+                  réglages selon vos préférences. Profitez également de la programmation différée pour adapter le
+                  séchage à votre emploi du temps.
+                </p>
+                <p className="p-right">
+                  Séchez votre linge avec confiance grâce à la fiabilité exceptionnelle du sèche-linge à condensation
+                  Candy CSOEC10TREX-47. Offrant une performance supérieure et une facilité d'utilisation optimale, il
+                  simplifiera votre routine de séchage et prendra soin de vos vêtements de manière efficace et pratique.
                 </p>
               </div>
             </div>
@@ -363,14 +392,14 @@ const SecheLinge = (props) => {
               <div className="panel pricing-table">
                 <div className="pricing-plan">
                   <img src={SecheLinge7} alt="Machine à laver" className="pricing-img" />
-                  <h3 className="pricing-header">SAMSUNG WW90TA046AX</h3>
+                  <h3 className="pricing-header">Bosch WTH83V13FR</h3>
                   <ul className="pricing-features">
-                    <li className="pricing-features-item">Capacité 9 Kilogrammes</li>
-                    <li className="pricing-features-item">Produit régulièrement en rupture de stock</li>
+                    <li className="pricing-features-item">Capacité 8 Kilogrammes</li>
+                    <li className="pricing-features-item">#1 Meilleure vente</li>
                   </ul>
-                  <span className="pricing-price">559,00€ TTC</span>
+                  <span className="pricing-price">606,00€ TTC</span>
                   <a
-                    href="https://amzn.to/45ry2TR"
+                    href="https://amzn.to/45C0imy"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="pricing-button"
@@ -381,14 +410,14 @@ const SecheLinge = (props) => {
 
                 <div className="pricing-plan">
                   <img src={SecheLinge8} alt="Machine à laver" className="pricing-img" />
-                  <h3 className="pricing-header">Bosch WGG14201FR</h3>
+                  <h3 className="pricing-header">Electrolux EW6C4853SC</h3>
                   <ul className="pricing-features">
-                    <li className="pricing-features-item">Capacité 63 Litres</li>
-                    <li className="pricing-features-item">Le plus grand modèle de cette haute gamme</li>
+                    <li className="pricing-features-item">Capacité 8 Kilogrammes</li>
+                    <li className="pricing-features-item">163 évaluations - Articles très appréciés</li>
                   </ul>
-                  <span className="pricing-price">621,61€ TTC</span>
+                  <span className="pricing-price">494,18€ TTC</span>
                   <a
-                    href="https://amzn.to/3BVhG8w"
+                    href="https://amzn.to/3MHDzNo"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="pricing-button is-featured"
@@ -399,14 +428,14 @@ const SecheLinge = (props) => {
 
                 <div className="pricing-plan">
                   <img src={SecheLinge9} alt="Machine à laver" className="pricing-img" />
-                  <h3 className="pricing-header">CANDY Lave linge Frontal CSS1410TWMCBE-47</h3>
+                  <h3 className="pricing-header">INDESIT YTCM108BFR1</h3>
                   <ul className="pricing-features">
-                    <li className="pricing-features-item">Capacité 10 Kilogrammes</li>
+                    <li className="pricing-features-item">Capacité 8 Kilogrammes</li>
                     <li className="pricing-features-item">Rapport qualité prix très correct</li>
                   </ul>
-                  <span className="pricing-price">433,00€ TTC</span>
+                  <span className="pricing-price">410,25€ TTC</span>
                   <a
-                    href="https://amzn.to/3BZbaxv"
+                    href="https://amzn.to/3C0ggtb"
                     rel="noopener noreferrer"
                     target="_blank"
                     className="pricing-button"
@@ -418,58 +447,66 @@ const SecheLinge = (props) => {
             </div>
           </div>
           <div className="container_articles">
-            <h4 className="h4Articles">SAMSUNG WW90TA046AX</h4>
+            <h4 className="h4Articles">Bosch WTH83V13FR</h4>
             <div className="image-right">
-              <img src={SecheLinge6} alt="Klarstein Bubble Boost" className="img-right" />
+              <img src={SecheLinge6} alt="SAMSUNG WW90TA046AX" className="img-right" />
               <div>
                 <p className="p-right">
-                  BOSCH WGG14201FR est un produit phare qui se positionne comme l'un des meilleurs choix dans la
-                  catégorie haut de gamme. Avec ses caractéristiques exceptionnelles et ses retours clients élogieux, il
-                  offre une expérience de cuisson et de cuisson exceptionnelle pour les amateurs de cuisine exigeants.
+                  Plongez dans l'excellence du séchage avec le sèche-linge Bosch WTH83V13FR, le leader incontesté des
+                  ventes. Conçu pour offrir des performances supérieures, ce sèche-linge vous garantit un linge
+                  parfaitement sec et prêt à être utilisé, à chaque utilisation.
                 </p>
                 <p className="p-right">
-                  Ce modèle de BOSCH allie à la perfection performances de pointe et design élégant. Il est équipé de
-                  technologies avancées qui garantissent une cuisson précise et homogène. Que vous soyez un passionné de
-                  pâtisserie ou un chef cuisinier expérimenté, le WGG14201FR vous offre une grande flexibilité grâce à
-                  sa double cavité comprenant un four multifonction et une table de cuisson à gaz.
+                  Profitez d'une capacité généreuse qui vous permet de sécher de grandes quantités de linge en une seule
+                  fois, vous faisant gagner un temps précieux. Grâce à son tambour spacieux, la chaleur est répartie de
+                  manière homogène, garantissant des résultats uniformes et un séchage optimal pour tous vos vêtements.
                 </p>
                 <p className="p-right">
-                  Les utilisateurs sont unanimes : le BOSCH WGG14201FR est salué pour sa qualité de construction et sa
-                  durabilité. Sa robustesse et sa fiabilité en font un investissement à long terme. De plus, son design
-                  élégant s'intègre parfaitement dans n'importe quelle cuisine, ajoutant une touche de sophistication.
+                  Le sèche-linge Bosch WTH83V13FR est équipé des dernières technologies avancées pour vous offrir une
+                  expérience de séchage exceptionnelle. Sa technologie AutoDry ajuste automatiquement la durée et la
+                  température de séchage en fonction de l'humidité résiduelle, assurant ainsi un séchage précis sans
+                  risque de surchauffe ou de sur-séchage.
                 </p>
                 <p className="p-right">
-                  En résumé, c'est un choix incontournable pour ceux qui recherchent le meilleur en matière d'appareils
-                  de cuisson haut de gamme. Avec ses performances de pointe, sa durabilité et ses retours clients
-                  élogieux, il incarne l'excellence culinaire. Optez pour le WGG14201FR de BOSCH et découvrez une
-                  nouvelle dimension de plaisir en cuisine.
+                  Avec sa large gamme de programmes de séchage, ce sèche-linge Bosch s'adapte à tous vos besoins. Que
+                  vous ayez des vêtements délicats nécessitant un traitement doux ou des articles plus robustes
+                  nécessitant un séchage intensif, vous trouverez toujours le programme idéal pour préserver la qualité
+                  de vos vêtements.
+                </p>
+                <p className="p-right">
+                  En choisissant le sèche-linge Bosch WTH83V13FR, vous optez pour une qualité de premier plan et une
+                  fiabilité exceptionnelle. Profitez d'un appareil qui simplifie votre quotidien, prend soin de vos
+                  vêtements et vous offre une performance de séchage inégalée. Ne manquez pas l'occasion d'acquérir le
+                  sèche-linge préféré des consommateurs avertis.
                 </p>
               </div>
             </div>
 
-            <h4 className="h4Articles">Bosch WGG14201FR</h4>
+            <h4 className="h4Articles">Electrolux EW6C4853SC</h4>
             <div className="image-left">
-              <img src={SecheLinge7} alt="OneConcept SG002 White Line" className="img-right" />
+              <img src={SecheLinge7} alt="OneConcept SG002 White Line" className="img-left" />
               <div>
                 <p className="p-left">
-                  Le lave-linge Bosch WAJ28067FR est équipé d'une capacité généreuse, vous permettant de laver de
-                  grandes quantités de linge en une seule fois. Cela vous fait gagner du temps et de l'énergie, vous
-                  offrant une solution pratique pour vos besoins de lavage quotidiens.
+                  Explorez les performances exceptionnelles du sèche-linge Electrolux EW6C4853SC, un choix prisé par de
+                  nombreux utilisateurs qui lui ont attribué un total de 163 avis élogieux sur Amazon. Doté d'un design
+                  moderne et de fonctionnalités avancées, ce sèche-linge est conçu pour répondre à tous vos besoins de
+                  lavage avec une efficacité inégalée.
                 </p>
                 <p className="p-left">
-                  Grâce à ses multiples programmes de lavage, vous pouvez choisir celui qui convient le mieux à vos
-                  besoins spécifiques. Que ce soit pour les vêtements délicats, les textiles épais ou les charges
-                  mixtes, ce lave-linge vous offre une polyvalence optimale.
+                  Profitez d'une capacité généreuse qui vous permet de laver de grandes quantités de linge en une seule
+                  fois, vous faisant ainsi économiser du temps et de l'énergie. Grâce à son tambour spacieux,
+                  l'Electrolux EW6C4853SC assure une répartition uniforme de l'eau et des produits lessiviels,
+                  garantissant des résultats de lavage impeccables pour tous vos vêtements.
                 </p>
                 <p className="p-left">
-                  Grâce à ses composants de haute qualité et à sa conception soignée, le lave-linge WAJ28067FR de Bosch
-                  est prêt à relever tous les défis du quotidien. Il est conçu pour résister à une utilisation intensive
-                  et pour fournir des performances constantes. Que ce soit pour les charges de lavage régulières ou pour
-                  les articles plus volumineux et délicats, cet appareil est à la hauteur de toutes les situations.
+                  Ce sèche-linge Electrolux est équipé de technologies avancées qui optimisent chaque cycle de lavage.
+                  Grâce à sa fonction de détection de charge intelligente, il ajuste automatiquement la consommation
+                  d'eau et d'énergie en fonction de la quantité de linge, vous permettant ainsi de réaliser des
+                  économies tout en préservant l'environnement.
                 </p>
                 <p className="p-left">
-                  En tant que leader des appareils haut de gamme, le lave-linge BOSCH WGG14201FR incarne l'excellence et
-                  la qualité supérieure. Les retours clients plus que satisfaisants témoignent de sa performance
+                  En tant que leader des appareils haut de gamme, le sèche-linge BOSCH WGG14201FR incarne l'excellence
+                  et la qualité supérieure. Les retours clients plus que satisfaisants témoignent de sa performance
                   inégalée et de sa fiabilité à long terme. Faites confiance à BOSCH pour vous offrir une expérience de
                   lavage exceptionnelle avec le WGG14201FR.
                 </p>
@@ -477,44 +514,35 @@ const SecheLinge = (props) => {
               </div>
             </div>
 
-            <h4 className="h4Articles">CANDY Lave linge Frontal CSS1410TWMCBE-47</h4>
+            <h4 className="h4Articles">Electrolux - EW6C4853SC</h4>
             <div className="image-right">
               <img src={SecheLinge9} alt="OneConcept SG002 White Line" className="img-right" />
               <div>
                 <p className="p-right">
-                  Le lave-linge frontal CSS1410TWMCBE-47 de Candy est un appareil qui se démarque de ses concurrents
-                  grâce à ses nombreux retours clients positifs. Avec sa performance exceptionnelle et ses
-                  fonctionnalités avancées, il offre une expérience de lavage remarquable.
+                  Découvrez le sèche-linge Electrolux EW6C4853SC, un appareil de haute qualité qui a conquis le cœur des
+                  utilisateurs avec ses 163 avis élogieux sur Amazon. Doté d'une technologie de pointe et d'un design
+                  moderne, ce sèche-linge offre une expérience de séchage supérieure, garantissant un linge parfaitement
+                  sec et prêt à être utilisé.
                 </p>
                 <p className="p-right">
-                  Les clients sont unanimes quant à la qualité de lavage offerte par le CSS1410TWMCBE-47. Les taches
-                  tenaces et les saletés sont éliminées efficacement, garantissant des vêtements propres et frais à
-                  chaque fois. Sa capacité généreuse permet de laver de grandes charges de linge en une seule fois, ce
-                  qui est très apprécié par les utilisateurs.
+                  L'Electrolux EW6C4853SC se distingue également par sa technologie de détection d'humidité
+                  intelligente, qui ajuste automatiquement la durée de séchage en fonction du niveau d'humidité
+                  résiduelle, garantissant ainsi une efficacité optimale et évitant tout risque de sur-séchage.
                 </p>
                 <p className="p-right">
-                  Les fonctionnalités supplémentaires du lave-linge frontal CSS1410TWMCBE-47 sont également très
-                  populaires parmi les clients. Des options telles que la programmation différée, les cycles rapides et
-                  les programmes spéciaux répondent aux besoins spécifiques de chacun. De plus, son interface conviviale
-                  et facile à utiliser rend le processus de lavage simple et pratique.
+                  Ce sèche-linge Electrolux allie performance, praticité et fiabilité. Son panneau de contrôle intuitif
+                  facilite la sélection des options et des réglages personnalisés, tandis que sa conception silencieuse
+                  assure une expérience de séchage agréable et sans perturbation.
                 </p>
                 <p className="p-right">
-                  La fiabilité et la durabilité sont également des points forts soulignés par les clients. Le lave-linge
-                  frontal CSS1410TWMCBE-47 de Candy est conçu pour résister à une utilisation intensive et pour durer
-                  dans le temps. Les utilisateurs apprécient sa robustesse et son fonctionnement sans problème, ce qui
-                  en fait un investissement sûr et fiable.
-                </p>
-                <p className="p-right">
-                  En résumé, le lave-linge frontal CSS1410TWMCBE-47 de Candy se distingue de ses concurrents grâce à ses
-                  nombreux retours clients positifs. Avec sa performance de lavage exceptionnelle, ses fonctionnalités
-                  avancées et sa fiabilité, il offre une solution de lavage de haute qualité pour les foyers exigeants.
-                  Faites confiance à Candy pour vous offrir une expérience de lavage remarquable avec le
-                  CSS1410TWMCBE-47.
+                  Vous pouvez leur faire confiance confiance à l'Electrolux EW6C4853SC pour obtenir un linge
+                  parfaitement sec à chaque utilisation. Avec ses caractéristiques avancées, sa qualité de fabrication
+                  exceptionnelle et ses nombreux avis positifs, ce sèche-linge est un choix sûr et fiable pour répondre
+                  à tous vos besoins de séchage.
                 </p>
               </div>
             </div>
           </div>
-          {/* ---------------------------------------------------------- */}
         </section>
       </article>
     </div>
